@@ -13,6 +13,8 @@ def matrix_multiply(A, B):
         list of list of int/float: A 2D list representing the result of the matrix multiplication.
     """
 
+
+
     if len(A[0]) != len(B):
         raise ValueError("Number of columns in A must be equal to number of rows in B.")
 
